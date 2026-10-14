@@ -1,0 +1,486 @@
+{
+  "news": [
+    {
+      "label": "SCHEDULE",
+      "text": "11月14日はイベント参加のため、第2土曜日のレッスンを第1土曜日へ振り替えます。",
+      "url": "",
+      "published": true
+    },
+    {
+      "label": "LESSON",
+      "text": "祝日による変則日程があります。月間表をご確認ください。",
+      "url": "",
+      "published": true
+    }
+  ],
+  "photos": {
+    "kids": "",
+    "general": "",
+    "family": ""
+  },
+  "faq": [
+    {
+      "question": "ダンスが初めてでも相談できますか？",
+      "answer": "初めての方も、公式LINEからお気軽にご相談ください。年齢・経験・希望ジャンルに合わせて、クラスをご案内します。"
+    },
+    {
+      "question": "何歳から始められますか？",
+      "answer": "2歳から通えるキッズ親子クラスをご案内しています。対象年齢や現在の開講状況は、公式LINEでご確認ください。"
+    },
+    {
+      "question": "体験レッスンには何を持っていけばよいですか？",
+      "answer": "服装・持ち物・体験料金は、クラスによって異なる場合があります。申し込み時に公式LINEでご確認ください。"
+    },
+    {
+      "question": "クラス変更・休会・退会の手続きは？",
+      "answer": "クラスの追加・変更は前月まで、休会・退会は前月20日までに指定用紙での申請お願いいたします。実際のお手続きはスクールへ確認のうえ、受付で行ってください。"
+    }
+  ],
+  "month": "11",
+  "year": "",
+  "schedule_image": "",
+  "schedule_alt": "11月の月間レッスンスケジュール。下に日付別の一覧があります。",
+  "days": [
+    {
+      "day": 2,
+      "weekday": "月",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. HIPHOP",
+          "note": ""
+        },
+        {
+          "time": "19:15",
+          "name": "JAZZ",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 3,
+      "weekday": "火",
+      "events": [],
+      "note": "祝日"
+    },
+    {
+      "day": 4,
+      "weekday": "水",
+      "events": [
+        {
+          "time": "17:00",
+          "name": "Jr. Jazz",
+          "note": ""
+        },
+        {
+          "time": "18:10",
+          "name": "Jr. Jazz",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 6,
+      "weekday": "金",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. ベリー",
+          "note": ""
+        },
+        {
+          "time": "20:15",
+          "name": "HIPHOP 社会人",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 7,
+      "weekday": "土",
+      "events": [
+        {
+          "time": "13:00",
+          "name": "ステップ",
+          "note": ""
+        },
+        {
+          "time": "14:00",
+          "name": "Jr. オープン",
+          "note": ""
+        },
+        {
+          "time": "17:00",
+          "name": "キッズ親子",
+          "note": "第2土曜日から振替"
+        },
+        {
+          "time": "18:30",
+          "name": "FREEスタイル",
+          "note": "第2土曜日から振替"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 9,
+      "weekday": "月",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. JAZZ LOCK",
+          "note": ""
+        },
+        {
+          "time": "19:15",
+          "name": "HIPHOP",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 10,
+      "weekday": "火",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. ガールズ",
+          "note": ""
+        },
+        {
+          "time": "19:15",
+          "name": "J・LOCK",
+          "note": ""
+        },
+        {
+          "time": "",
+          "name": "外部レッスン / 月舘教室",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 12,
+      "weekday": "木",
+      "events": [
+        {
+          "time": "20:30",
+          "name": "リズミカルベリー",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 13,
+      "weekday": "金",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. A",
+          "note": ""
+        },
+        {
+          "time": "19:15",
+          "name": "TAP",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 14,
+      "weekday": "土",
+      "events": [],
+      "note": "イベントのため、レッスンは第1土曜日へ振替"
+    },
+    {
+      "day": 16,
+      "weekday": "月",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. HIPHOP",
+          "note": ""
+        },
+        {
+          "time": "19:15",
+          "name": "JAZZ",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 17,
+      "weekday": "火",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. ガールズ",
+          "note": ""
+        },
+        {
+          "time": "19:15",
+          "name": "J・LOCK",
+          "note": ""
+        },
+        {
+          "time": "",
+          "name": "外部レッスン / 本宮教室",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 18,
+      "weekday": "水",
+      "events": [
+        {
+          "time": "17:00",
+          "name": "Jr. Jazz",
+          "note": ""
+        },
+        {
+          "time": "18:10",
+          "name": "Jr. Jazz",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 19,
+      "weekday": "木",
+      "events": [
+        {
+          "time": "19:30",
+          "name": "JAZZ 社会人",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 20,
+      "weekday": "金",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. ベリー",
+          "note": ""
+        },
+        {
+          "time": "20:15",
+          "name": "HIPHOP 社会人",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 21,
+      "weekday": "土",
+      "events": [
+        {
+          "time": "13:00",
+          "name": "ステップ",
+          "note": ""
+        },
+        {
+          "time": "14:00",
+          "name": "Jr. オープン",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 23,
+      "weekday": "月",
+      "events": [],
+      "note": "祝日"
+    },
+    {
+      "day": 24,
+      "weekday": "火",
+      "events": [
+        {
+          "time": "",
+          "name": "外部レッスン / 月舘教室",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 26,
+      "weekday": "木",
+      "events": [
+        {
+          "time": "19:15",
+          "name": "J・LOCK 社会人",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 27,
+      "weekday": "金",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. A",
+          "note": ""
+        },
+        {
+          "time": "19:15",
+          "name": "TAP",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 28,
+      "weekday": "土",
+      "events": [
+        {
+          "time": "18:30",
+          "name": "FREEスタイル",
+          "note": ""
+        }
+      ],
+      "note": ""
+    },
+    {
+      "day": 30,
+      "weekday": "月",
+      "events": [
+        {
+          "time": "18:10",
+          "name": "Jr. JAZZ LOCK",
+          "note": ""
+        },
+        {
+          "time": "19:15",
+          "name": "HIPHOP",
+          "note": ""
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "entry": [
+    {
+      "name": "入会金",
+      "amount": "5000",
+      "unit": "円（税込）"
+    },
+    {
+      "name": "登録料",
+      "amount": "1300",
+      "unit": "円（税込）"
+    }
+  ],
+  "general": [
+    {
+      "name": "月2回コース",
+      "amount": "3300",
+      "unit": "円"
+    },
+    {
+      "name": "月4回コース",
+      "amount": "5900",
+      "unit": "円"
+    },
+    {
+      "name": "月6回コース",
+      "amount": "7400",
+      "unit": "円"
+    },
+    {
+      "name": "月8回コース",
+      "amount": "8850",
+      "unit": "円"
+    },
+    {
+      "name": "月10回コース",
+      "amount": "10750",
+      "unit": "円"
+    },
+    {
+      "name": "月12回コース",
+      "amount": "11750",
+      "unit": "円"
+    },
+    {
+      "name": "月14回コース",
+      "amount": "12750",
+      "unit": "円"
+    },
+    {
+      "name": "月16回コース",
+      "amount": "13750",
+      "unit": "円"
+    },
+    {
+      "name": "月18回コース",
+      "amount": "14750",
+      "unit": "円"
+    },
+    {
+      "name": "フリーコース",
+      "amount": "15750",
+      "unit": "円"
+    }
+  ],
+  "junior": [
+    {
+      "name": "ジュニアオープン（月3回）",
+      "amount": "4850",
+      "unit": "円"
+    },
+    {
+      "name": "ジュニアA・B、ベリー（月2回）",
+      "amount": "3300",
+      "unit": "円"
+    },
+    {
+      "name": "ジュニアクラス組み合わせ（月4回）",
+      "amount": "6500",
+      "unit": "円"
+    }
+  ],
+  "family": [
+    {
+      "name": "月2回",
+      "amount": "3800",
+      "unit": "円"
+    },
+    {
+      "name": "2人目のお子さま",
+      "amount": "2250",
+      "unit": "円"
+    }
+  ],
+  "other": [
+    {
+      "name": "ビジター（非会員）",
+      "amount": "2500",
+      "unit": "円"
+    },
+    {
+      "name": "休会 / 1か月",
+      "amount": "2000",
+      "unit": "円"
+    }
+  ]
+}
