@@ -20,7 +20,11 @@ function ote_month_title() { $d = ote_data(); return ($d['year'] !== '' ? $d['ye
 function ote_news() {
     foreach (ote_data()['news'] as $n) {
         if (!$n['published']) continue;
-        echo '<a class="news-row" href="' . esc_url($n['url'] ?: ote_url('schedule') . '#monthly') . '"><span class="news-type">' . esc_html($n['label']) . '</span><span>' . esc_html($n['text']) . '</span><span class="arrow" aria-hidden="true">↗</span></a>';
+        $linked = trim($n['url']) !== '';
+        echo $linked ? '<a class="news-row" href="' . esc_url($n['url']) . '">' : '<div class="news-row">';
+        echo '<span class="news-type">' . esc_html($n['label']) . '</span><span>' . esc_html($n['text']) . '</span>';
+        if ($linked) echo '<span class="arrow" aria-hidden="true">↗</span>';
+        echo $linked ? '</a>' : '</div>';
     }
 }
 function ote_faq() {

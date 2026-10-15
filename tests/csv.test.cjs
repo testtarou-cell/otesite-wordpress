@@ -1,0 +1,14 @@
+const assert=require('node:assert/strict');
+require('../plugin/ote-content/csv.js');
+const c=globalThis.oteCSV;
+const headers='年,月,日,曜日,時間,名称,補足,日付補足\r\n';
+const plan=c.schedule('\uFEFF'+headers+'2026,11,2,月,18:10,"HIPHOP, Jr.","改行\nあり",\r\n2026,11,2,月,19:15,JAZZ,,\r\n2026,11,3,火,,,,祝日\r\n');
+assert.equal(plan.days.length,2);assert.equal(plan.days[0].events.length,2);assert.equal(plan.days[0].events[0].name,'HIPHOP, Jr.');assert.equal(plan.days[0].events[0].note,'改行\nあり');
+assert.deepEqual(c.schedule(c.exportSchedule(plan)),plan);
+for(const csv of [headers+'2026,2,30,月,,,,' , headers+'2026,11,2,月,a,b,,\n2026,12,3,火,c,d,,', headers+'2026,11,2,月,a,b,,\n2026,11,2,火,c,d,,',headers+'2026,11,2,月,a,b,'])assert.throws(()=>c.schedule(csv));
+assert.throws(()=>c.parse('a,"unclosed'));
+assert.throws(()=>c.parse('a,"closed"x'));
+const fees=c.fees('区分,名称,金額,単位\n一般,"コース, A","3,300",円\nその他,個人レッスン,要相談,\n');
+assert.equal(fees.general[0].amount,'3,300');assert.equal(fees.other[0].amount,'要相談');assert.throws(()=>c.fees('区分,名称,金額,単位\n不明,A,100,円'));
+const full={entry:[],general:fees.general,junior:[],family:[],other:fees.other};assert.deepEqual(c.fees(c.exportFees(full)),fees);
+console.log('CSV quoted fields/BOM/CRLF/multiline/roundtrip/date validation/errors passed');

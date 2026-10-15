@@ -2,7 +2,7 @@
 /**
  * Plugin Name: O・TE コンテンツ管理
  * Description: お知らせ・写真・FAQ・月間予定・料金の編集。テーマ変更後もデータを保持します。
- * Version: 1.0.0
+ * Version: 1.1.0
  * Requires PHP: 8.0
  */
 defined('ABSPATH') || exit;
@@ -51,7 +51,8 @@ add_action('admin_menu', function () { add_menu_page('O・TE コンテンツ','O
 add_action('admin_enqueue_scripts', function ($hook) {
     if ($hook !== 'toplevel_page_ote-content') return;
     wp_enqueue_media();
-    wp_enqueue_script('ote-editor',plugins_url('editor.js',__FILE__),[], '1.0.0',true);
+    wp_enqueue_script('ote-csv',plugins_url('csv.js',__FILE__),[], '1.1.0',true);
+    wp_enqueue_script('ote-editor',plugins_url('editor.js',__FILE__),['ote-csv'], '1.1.0',true);
     wp_localize_script('ote-editor','oteEditor',['data'=>get_option('ote_content',ote_content_defaults())]);
 });
 function ote_content_screen() {
